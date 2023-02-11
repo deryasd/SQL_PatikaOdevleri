@@ -13,7 +13,7 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 Kolay Gelsin.
 ```
 1. SELECT DISTINCT replacement_cost FROM film
-2. SELECT COUNT(replacement_cost) FROM film
+2. SELECT COUNT(DISTINCT replacement_cost) FROM film
 3. SELECT COUNT(title) FROM film WHERE title LIKE 'T%' AND rating = 'G'
 4. SELECT COUNT(countryname) FROM country WHERE country LIKE '_____',
 5. SELECT COUNT(cityname) FROM city WHERE cityname LIKE 'R%r'
